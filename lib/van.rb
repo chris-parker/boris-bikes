@@ -1,3 +1,31 @@
+
+class Va
+  def from_dock(bikes)
+
+  end
+
+  def to_garage(bikes)
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=begin
+
 require_relative 'bike'
 require_relative 'docking_station'
 
@@ -20,5 +48,5 @@ class Van
 end
 
 
-
+=end
    # since classess cannot access eachother directly, we need a method within van and docking station that can make requests across eachother and recieve eachother's inputs and outputs

@@ -1,3 +1,6 @@
+
+=begin
+
 require 'garage'
 
 describe Garage do
@@ -7,3 +10,4 @@ describe Garage do
     expect(sucky_bikes).to all be_working
   end
 end
+=end
