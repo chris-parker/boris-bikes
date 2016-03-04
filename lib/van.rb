@@ -1,13 +1,12 @@
-require 'docking_station'
-require 'bike'
+
 class Van
+  attr_accessor :broken_bikes
 
   def initialize
     @broken_bikes = []
   end
-
   def from_dock(bikes)
-    @broken_bikes << bikes
+    @broken_bikes = bikes
   end
 
   def to_garage(bikes)

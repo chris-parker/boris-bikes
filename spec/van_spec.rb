@@ -7,11 +7,6 @@ describe Van do
 
   end
 
-  it 'should collect broken bikes from the dock' do
-    station = DockingStation.new
-    broken_bikes = station.bike_to_van
-    expect(subject.from_dock(broken_bikes)).to all(be_not_working)
-  end
 
   it 'should bring bikes to the garage' do
     expect(subject).to respond_to(:to_garage).with(1).argument
