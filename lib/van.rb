@@ -1,62 +1,14 @@
-require_relative 'docking_station'
+
 require_relative 'bike'
+require_relative 'docking_station'
 
 class Van
-  attr_accessor :broken_bikes
+
+  attr_accessor :broken_bikes, :fixed_bikes
 
   def initialize
     @broken_bikes = []
     @fixed_bikes = []
-  end
-  def from_dock(bikes)
-    @broken_bikes = bikes
-  end
-
-  def to_dock(bikes)
-    @fixed_bikes = bikes
-  end
-end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=begin
-
-require_relative 'bike'
-require_relative 'docking_station'
-
-class Van
-  @broken_bikes = []
-  @fixed_bikes = []
-  def save_broken_bikes(bike)
-    @broken_bikes << bike if !bike.working?
   end
 
   def take_from_dock(sucky_bikes)
@@ -71,5 +23,5 @@ class Van
 end
 
 
-=end
+
    # since classess cannot access eachother directly, we need a method within van and docking station that can make requests across eachother and recieve eachother's inputs and outputs
