@@ -1,7 +1,13 @@
+require 'docking_station'
+require 'bike'
+class Van
 
-class Va
+  def initialize
+    @broken_bikes = []
+  end
+
   def from_dock(bikes)
-
+    @broken_bikes << bikes
   end
 
   def to_garage(bikes)

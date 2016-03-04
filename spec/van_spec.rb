@@ -1,4 +1,5 @@
 require 'van'
+require 'bike'
 
 describe Van do
   it 'should respond to the from_dock method' do

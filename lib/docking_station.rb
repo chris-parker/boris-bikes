@@ -19,7 +19,7 @@ class DockingStation
 
   def bike_to_van
     @docked_bikes.each do |bike|
-      if !bike.working
+      if !bike.working?
         @broken_bikes << bike
         @docked_bikes.delete bike
       end
