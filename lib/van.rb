@@ -6,14 +6,30 @@ class Van
 
   def initialize
     @broken_bikes = []
+    @fixed_bikes = []
   end
   def from_dock(bikes)
     @broken_bikes = bikes
   end
 
-  def to_garage(bikes)
+  def to_dock(bikes)
+    @fixed_bikes = bikes
   end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

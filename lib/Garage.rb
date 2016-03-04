@@ -1,3 +1,54 @@
+require_relative 'bike'
+require_relative 'van'
+class Garage
+
+  def initialize
+    @fixed_bikes = 
+
+  def fix_bikes(bikes)
+
+  end
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 =begin
 
